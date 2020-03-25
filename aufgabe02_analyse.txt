@@ -1,0 +1,15 @@
+1. GET: http://localhost:8080/myproject/baseproject/js/login.js
+2. GET:
+3. http://localhost:8080/myproject/baseproject/login#registrierung
+4. GET:
+5. {"result":true,"message":"Benutzer wurde erfolgreich hinzugef\u00fcgt!"}
+6. GET: http://localhost:8080/myproject/baseproject/api/address/?returnView=true
+7. POST: http://localhost:8080/myproject/baseproject/api/address/
+8. DELTE: http://localhost:8080/myproject/baseproject/api/address/
+9. $route['/anmelden'] = array('controller' => 'LoginController', 'uniqueName' => 'login');
+10. // in der login.php wird mir die Variable "$registerError" angezeigt, dass undefiniert ist bei der if
+10. in parts ist also der header"nav" bereich und der Footer // die anderen werden in die
+    Mitte von parts gesteckt
+11. es wird der username auf die variable $this->user->username; gesetzt
+	der in der loginController mit der $_Post Methode gesetzt wird
+	 
